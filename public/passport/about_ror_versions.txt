@@ -1,0 +1,10 @@
+ruby 1 1995
+ruby 1.8 Aug 2003
+ruby 1.9 Dec 2007
+
+rails 1 2005
+rails 2 2007
+rails 3 2010
+rails 4 2013
+
+A completely customizable app can be created from our powerful content management system. Don't be scared by the fancy tech talk. You can create your app in just a few minutes. You can stream your music, create photo albums, chat with your fans, show your calendar, play your videos, list news, link to your merchandise, create a mailing list. And that’s just a start. 

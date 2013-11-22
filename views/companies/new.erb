@@ -1,0 +1,61 @@
+<div class="contactPage_title">Company Input Form</div>
+  <div class="form_wrapper">
+    <form method="post" action="/companies" enctype="multipart/form-data" id="new_company">
+      <fieldset>
+          <legend>Company Particular</legend>
+          <div class="contactForm_tr">
+            <div class="contactForm_td1">Name*</div>
+              <div class="contactForm_tdMiddle">: </div>
+              <div class="contactForm_td2">
+                <input name="company[name]" type="text" class="Personal-input" id="company[name]" value="<%= @company.name %>">
+              </div>
+            </div>
+            <div class="contactForm_tr">
+              <div class="contactForm_td1">Address*</div>
+              <div class="contactForm_tdMiddle">: </div>
+              <div class="contactForm_td2">
+                <input name="company[address]" type="text" class="Personal-input" value="<%= @company.address %>">
+              </div>
+            </div>
+            <div class="contactForm_tr">
+              <div class="contactForm_td1">City*</div>
+              <div class="contactForm_tdMiddle">: </div>
+              <div class="contactForm_td2">
+                <input name="company[city]" type="text" class="Personal-input" value="<%= @company.city %>">
+              </div>
+            </div>
+            <div class="contactForm_tr">
+              <div class="contactForm_td1">Country*</div>
+              <div class="contactForm_tdMiddle">: </div>
+              <div class="contactForm_td2">
+                <input name="company[country]" type="text" class="Personal-input" value="<%= @company.country %>">
+              </div>
+            <div class="contactForm_tr">
+              <div class="contactForm_td1">Email</div>
+              <div class="contactForm_tdMiddle">: </div>
+              <div class="contactForm_td2">
+                <input name="company[email]" type="text" class="Personal-input" value="<%= @company.email %>">
+              </div>
+            <div class="contactForm_tr">
+              <div class="contactForm_td1">Phone No.</div>
+              <div class="contactForm_tdMiddle">: </div>
+              <div class="contactForm_td2">
+                <input name="company[phone_number]" type="text" class="Personal-input" value="<%= @company.phone_number %>">
+              </div>
+            </div>
+            <div class="contactForm_tr">
+              <div class="contactForm_td1">Passport File</div>
+              <div class="contactForm_tdMiddle">: </div>
+              <div class="contactForm_td2">
+                <input name="passport" type="file" class="Personal-input" value="<%= @company.passport %>">
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      <div class="form-button" style="margin-left:100px; margin-right:10px;"><input id="Submit" class="submit_btn" type="image" border="0" name="submit" alt="Submit" src="images/submit_btn.png"></input></div>
+      </form>
+      <input href="/" type="image" border="0" name="clear" alt="clear" src="images/clear_btn.png">
+    </form>
+  </div>
+
+</div>
